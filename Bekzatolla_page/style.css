@@ -112,8 +112,8 @@ nav .a_text:hover {
 
 
 header .site {
+	height: 100vh;
 	width: 100vw;
-	height: 600px;
 	background-image: url("img/background/Group 1434 (1).png");
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -743,13 +743,6 @@ footer .page {
 	position: static;
 }
 
-@media screen and (max-width: 600px){
-	.header{
-		height: 50px;
-	}
-
-	nav {
-		min-height: 50px;
-		background-color: blue;
-	}
+@media (max-width: 600px){
+	
 }
